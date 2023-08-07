@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1a1312;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    /* border: 1px solid white; */
+    /* background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover; */
+}
+nav{
+    display: flex;
+
+    justify-content: center;
+}
+#nav{
+    display: flex;
+    width: 96%;
+    height: 100px;
+    align-items: center;
+    padding: 0 40px;
+    border-radius: 12px;
+    /* border: 1px solid white; */
+    background: rgba(255, 255, 255, 0.013);
+    backdrop-filter: blur(12px);
+    margin-top: 25px;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(12px);
+}
+#logo a:hover{
+    color: wheat;
+}
+#logo a{
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0);
+}
+#nav-btn{
+    background: rgba(255, 255, 255, 0);
+    display: flex;
+    align-items: center;
+  
+    gap: 20px;
+    text-transform: uppercase;
+}
+#nav-btn ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    list-style-type: disc;
+    gap: 36px;
+    list-style-type: none;
+    background: rgba(255, 255, 255, 0);
+}
+#mobile_nav-btn{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 130px;
+ 
+}
+#nav-btn ul a li{
+    background: rgba(255, 255, 255, 0);
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    padding: 8px 14px;
+}
+#nav-btn ul a li:hover{
+    color: wheat;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: 1px solid wheat;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+}
+#nav-btn ul a{
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0);
+}
+#page1{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    /* border-radius: 12px;
+    border: 1px solid white; 
+    background: rgba(255, 255, 255, 0.013);
+    backdrop-filter: blur(12px); */
+    padding: 80px 20px;
+    margin-top: 30px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); */
+    margin-left: 4%;
+    margin-right: 2%;
+}
+#i-am{
+    font-size: 22px;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0);
+    /* border: 1px solid white; */
+    /* display: inline; */
+}
+#name{
+    font-size: 115px;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0);
+    /* border: 1px solid white; */
+
+}
+#Front-End{
+    font-size: 32px;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0);
+    /* border: 1px solid white; */
+}
+#container{
+    margin-top: 100px;
+    margin-left: 10px;
+    display: inline-block;
+}
+#container button{
+    padding: 10px 14px;
+    font-weight: 520;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1.5px solid white;
+}
+#container button i{
+    margin-left: 6px;
+    background: rgba(255, 255, 255, 0);
+}
+#container button:hover{
+    color: wheat;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid wheat;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+}
+/* #container button:focus{
+    color: wheat;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid wheat;
+    box-shadow: 0px 0px 8px rgba(245, 222, 179, 0.4);
+} */
+#about-me{
+    margin-top: 20px;
+    padding: 20px 25px;
+    border-radius: 4px;
+    transition: all 0.4s ease;
+    background: rgba(255, 255, 255, 0.013);
+    backdrop-filter: blur(12px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+#about-me button{
+    margin-top: 15px;
+}
+#about-me button:hover{
+    color: wheat;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid wheat;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+}
+.burger{
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    height: 50px;
+    display: none;
+}
+@media screen and (max-width: 1165px) {
+.burger{
+display: block;
+}  
+#nav-btn{
+    display: none;
+}
+}
