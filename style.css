@@ -69,7 +69,6 @@ nav{
     position: absolute;
     right: 0;
     top: 130px;
- 
 }
 #nav-btn ul a li{
     background: rgba(255, 255, 255, 0);
@@ -180,14 +179,14 @@ nav{
 .burger{
     background: rgba(255, 255, 255, 0);
     cursor: pointer;
-    height: 50px;
+    height: 25px;
     display: none;
 }
 @media screen and (max-width: 1165px) {
-.burger{
-display: block;
-}  
-#nav-btn{
-    display: none;
-}
+    .burger{
+        display: block;
+    }  
+    #nav-btn{
+        display: none;
+    }
 }
