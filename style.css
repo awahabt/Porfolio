@@ -155,12 +155,17 @@ nav{
 #about-me{
     margin-top: 20px;
     padding: 20px 25px;
-    border-radius: 4px;
+    border-radius: 10px;
     transition: all 0.4s ease;
     background: rgba(255, 255, 255, 0.013);
     backdrop-filter: blur(12px);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     display: none;
+    max-width: 800px;
+}
+#about-me p{
+    background: rgba(255, 255, 255, 0);
+    line-height: 25px;
 }
 #about-me button{
     margin-top: 15px;
