@@ -4,7 +4,7 @@
 <head>
     <title>Abdul Wahab Tahir - Portfolio</title>
     <link rel="icon" type="image" href="my-favicon.png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
@@ -37,23 +37,23 @@
                     </a>
                 </ul>
             </div>
-
-            <ul id="mobile_nav-btn">
-                <a href="">
-                    <li>Home</li>
-                </a>
-                <a href="https://github.com/awahabt" target="_blank">
-                    <li>Github</li>
-                </a>
-                <a href="">
-                    <li>Projects</li>
-                </a>
-                <a href="">
-                    <li>Contact</li>
-                </a>
-            </ul>
-
-            <img src="menu.png" alt="" onclick="toggleMenu()" class="burger" srcset="">
+            <div id="dropdown">
+                <i class="fa-solid fa-bars burger" onclick="toggleMenu()"></i>
+                <ul id="mobile_nav-btn" class="dropdown-content">
+                    <a href="">
+                        <li>Home</li>
+                    </a>
+                    <a href="https://github.com/awahabt" target="_blank">
+                        <li>Github</li>
+                    </a>
+                    <a href="">
+                        <li>Projects</li>
+                    </a>
+                    <a href="">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </div>
         </div>
     </nav>
     <div id="page1">
