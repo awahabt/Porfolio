@@ -99,9 +99,13 @@ nav{
     background: rgba(255, 255, 255, 0);
 }
 
-@media screen and (max-width: 412px){
-    #logo{
-        font-size: 20px;
+@media screen and (max-width: 1095px){
+    #nav{
+        height: 80px;
+    }
+    #logo a img{
+        height: 35px;
+        margin-left: -20px;
     }
 }
 #page1{
@@ -131,7 +135,8 @@ nav{
     /* border: 1px solid white; */
 
 }
-#Front-End{
+
+#front-end{
     font-size: 32px;
     font-weight: 400;
     background: rgba(255, 255, 255, 0);
@@ -140,6 +145,64 @@ nav{
 #Front-End-line u{
     color: wheat;
     font-weight: 550;
+}
+
+
+
+@media screen and (max-width: 1250px){
+    #name{
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 1095px){
+    #name{
+        font-size: 70px;
+    }
+    #line-1{
+        font-size: 22px;
+    }
+    #front-end{
+        font-size: 22px;
+    }
+    #Front-End-line u{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 900px){
+    #name{
+        font-size: 50px;
+    }
+    #line-1{
+        font-size: 17px;
+    }
+    #front-end{
+        font-size: 17px;
+    }
+    #Front-End-line u{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 660px){
+    #name{
+        font-size: 40px;
+    }
+    #line-1{
+        font-size: 13px;
+    }
+    #front-end{
+        font-size: 13px;
+    }
+    #Front-End-line u{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 500px){
+    #name{
+        font-size: 35px;
+    }
+    #line-1{
+        padding-top: 30px;
+    }
 }
 #container{
     margin-top: 20px;
