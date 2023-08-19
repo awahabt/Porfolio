@@ -83,33 +83,35 @@ nav{
     border: 1px solid wheat;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
 }
+.active{
+    color: wheat;
+}
 #nav-btn ul a{
     text-decoration: none;
     background: rgba(255, 255, 255, 0);
 }
 #page1{
-    display: inline-block;
-    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
     height: auto;
-    /* border-radius: 12px;
-    border: 1px solid white; 
+    padding-top: 5%;
+    padding-left: 5%;
+    /* border-radius: 12px; 
     background: rgba(255, 255, 255, 0.013);
     backdrop-filter: blur(12px); */
-    padding: 80px 20px;
-    margin-top: 30px;
-    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); */
-    margin-left: 4%;
-    margin-right: 2%;
 }
-#i-am{
-    font-size: 22px;
+#line-1{
+    font-size: 30px;
     font-weight: 600;
     background: rgba(255, 255, 255, 0);
     /* border: 1px solid white; */
-    /* display: inline; */
+
 }
 #name{
-    font-size: 115px;
+    font-size: 100px;
     font-weight: 600;
     background: rgba(255, 255, 255, 0);
     /* border: 1px solid white; */
@@ -121,10 +123,14 @@ nav{
     background: rgba(255, 255, 255, 0);
     /* border: 1px solid white; */
 }
+#Front-End-line u{
+    color: wheat;
+    font-weight: 550;
+}
 #container{
-    margin-top: 30px;
-    margin-left: 3px;
+    margin-top: 20px;
     display: inline-block;
+    margin-left: 5px;
 }
 #container button{
     padding: 10px 14px;
@@ -172,7 +178,7 @@ nav{
 }
 #about-me button:hover{
     color: wheat;
-    transition: all 0.3s ease;
+    transition: all ease 0.3s;
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid wheat;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
@@ -232,4 +238,21 @@ nav{
     #nav-btn{
         display: none;
     }
+}
+
+
+#social-media-links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 35px;
+    margin-left: 5px;
+}
+#social-media-links a i{
+    font-size: 30px;
+    transition: all ease 0.15s;
+}
+#social-media-links i:hover{
+    color: wheat;
+    transform: scale(1.1);
 }
