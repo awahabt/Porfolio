@@ -38,12 +38,20 @@ nav{
     font-weight: 600;
     background: rgba(255, 255, 255, 0);
     backdrop-filter: blur(12px);
+    margin-left: 50px;
 }
 #logo a:hover{
     color: wheat;
 }
 #logo a{
     text-decoration: none;
+    background: rgba(255, 255, 255, 0);
+}
+#logo a img{
+    height: 45px;
+    width: auto;
+    margin-top: 8px;
+    object-fit: cover;
     background: rgba(255, 255, 255, 0);
 }
 #nav-btn{
@@ -89,6 +97,12 @@ nav{
 #nav-btn ul a{
     text-decoration: none;
     background: rgba(255, 255, 255, 0);
+}
+
+@media screen and (max-width: 412px){
+    #logo{
+        font-size: 20px;
+    }
 }
 #page1{
     display: flex;
