@@ -127,7 +127,7 @@ nav{
 }
 #social-media-links{
     min-width: 70px;
-    min-height: 240px;
+    max-height: 240px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -163,11 +163,16 @@ nav{
         width: 100%;
         justify-content: center;
         flex-direction: row;
-        margin-top: 100px;
+        margin-top: 50px;
     }
     #social-media-links{
         flex-direction: row;
-        background-color: red;
+        width: 70%;
+        height: 100px;
+        gap: 150px;
+    }
+    #social-media-links a i{
+        font-size: 45px;
     }
 }
 
