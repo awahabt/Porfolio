@@ -6,10 +6,6 @@
     box-sizing: border-box;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    /* border: 1px solid white; */
-    /* background-image: url(background.jpg);
-    background-repeat: no-repeat;
-    object-fit: cover; */
 }
 nav{
     display: flex;
@@ -23,11 +19,12 @@ nav{
     padding: 0 40px;
     border-radius: 12px;
     /* border: 1px solid white; */
-    background: rgba(255, 255, 255, 0.013);
+    background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(12px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     margin-top: 25px;
     justify-content: space-between;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    
 }
 
 #logo{
@@ -109,17 +106,59 @@ nav{
 }
 #page1{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-height: 90vh;
+    /* gap: 25vw; */
+}
+#page1-left-content{
+    margin-top: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#page1-right-content{
+    /* width: 40%; */
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 40px;
+
+}
+#social-media-links{
+    width: 65px;
+    height: 250px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
-    width: 100%;
-    height: auto;
-    padding-left: 10%;
-    padding-top: 9%;
-    /* border-radius: 12px; 
-    background: rgba(255, 255, 255, 0.013);
-    backdrop-filter: blur(12px); */
+    align-items: center;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(12px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 8px;
+    
 }
+#social-media-links a{
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(12px);
+}
+#social-media-links a i{
+    font-size: 35px;
+    transition: all ease 0.15s;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(12px);
+}
+#social-media-links i:hover{
+    color: wheat;
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(12px);
+}
+
+
 #line-1{
     font-size: 30px;
     font-weight: 600;
@@ -132,16 +171,12 @@ nav{
     font-weight: 600;
     background: rgba(255, 255, 255, 0);
     margin-top: 15px;
-    /* border: 1px solid white; */
-    
-
 }
 
 #front-end{
     font-size: 32px;
     font-weight: 400;
-    background: rgba(255, 255, 255, 0);margin-top: 25px;
-    /* border: 1px solid white; */
+    background: rgba(255, 255, 255, 0);
 }
 #Front-End-line u{
     color: wheat;
@@ -206,7 +241,7 @@ nav{
     }
 } */
 #container{
-    margin-top: 20px;
+    margin-top: 70px;
     display: inline-block;
     margin-left: 5px;
 }
@@ -320,18 +355,3 @@ nav{
 }
 
 
-#social-media-links{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 35px;
-    margin-left: 5px;
-}
-#social-media-links a i{
-    font-size: 30px;
-    transition: all ease 0.15s;
-}
-#social-media-links i:hover{
-    color: wheat;
-    transform: scale(1.1);
-}
