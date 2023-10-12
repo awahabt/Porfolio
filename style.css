@@ -144,6 +144,9 @@ nav{
     background: rgba(255, 255, 255, 0);
     backdrop-filter: blur(12px);
 }
+#social-media-links p{
+    display: none;
+}
 #social-media-links a i{
     font-size: 35px;
     transition: all ease 0.15s;
@@ -169,7 +172,14 @@ nav{
         flex-direction: row;
         width: 70%;
         height: 100px;
-        gap: 150px;
+        justify-content: space-evenly;
+        
+    }
+    #social-media-links p{
+        background: rgba(255, 255, 255, 0);
+        font-size: 18px;
+        font-weight: 500;
+        display: inline-block;
     }
     #social-media-links a i{
         font-size: 45px;
